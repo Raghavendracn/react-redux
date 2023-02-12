@@ -1,0 +1,9 @@
+import { createStore } from "redux";
+import reducer from '../reducers/mainReducer';
+
+
+//we are connecing store to reducer
+
+let store = createStore(reducer);
+
+export default store
